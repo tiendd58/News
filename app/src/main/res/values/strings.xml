@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Báo mới 24h</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="tabs">
+        <item>Tin tức trong ngày</item>
+        <item>Bóng đá</item>
+        <item>An ninh - Hình sự</item>
+        <item>Thời trang</item>
+        <!--<item>Ẩm thực</item>
+        <item>Làm đẹp</item>
+        <item>Phim</item>
+        <item>Giáo dục - du học</item>
+        <item>Cười 24h</item>-->
+    </string-array>
+    <string name="title_activity_read_news">ReadNewsActivity</string>
+
+</resources>

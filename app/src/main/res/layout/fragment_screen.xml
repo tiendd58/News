@@ -1,0 +1,63 @@
+<LinearLayout
+    android:id="@+id/fragment_screen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hacks_000.newspaper.ScreenFragment"
+    android:orientation="vertical"
+    android:background="@color/windowBackground"
+    android:clickable="true">
+
+
+    <!--header-->
+    <ImageView
+            android:src="@drawable/wall_paper"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/header"
+            android:scaleType="fitXY"/>
+
+    <!--vn express-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp">
+        <ImageView
+            android:src="@drawable/icon_vnexpress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic_vnexpress" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VN Express"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ic_vnexpress"
+            android:layout_marginLeft="56dp" />
+    </RelativeLayout>
+
+    <!--24h-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp">
+        <ImageView
+            android:src="@drawable/icon_24h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic_24h" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24h"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ic_24h"
+            android:layout_marginLeft="56dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
